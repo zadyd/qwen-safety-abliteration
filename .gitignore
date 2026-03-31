@@ -1,0 +1,45 @@
+# 模型权重
+Qwen3.5-2B/
+models/
+
+# LoRA 训练输出（包含模型权重）
+lora_finetune/output/final/adapter_model.safetensors
+lora_finetune/output/final/*.safetensors
+lora_finetune/output/checkpoints/
+lora_finetune/output/runs/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# 结果文件（不含图表和 JSON）
+results/activations/
+results/*.pt
+
+# Logs
+*.log
+logs/
+
+# IDE / OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Misc
+*.tmp
+.env
